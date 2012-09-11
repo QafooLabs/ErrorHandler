@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ErrorHandler" default="verify" basedir="./">
+
+    <!--
+        Import project specific settings.
+    -->
+    <property file="${basedir}/build.properties" />
+
+    <!--
+        Import the ant build commons framework.
+    -->
+    <import file="setup/src/main/xml/base.xml" />
+
+</project>
