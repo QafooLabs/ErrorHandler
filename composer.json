@@ -1,0 +1,32 @@
+{
+    "name": "qafoolabs/errorhandler",
+    "description": "Utility library to handle native errors, notices and warnings in PHP",
+    "version": "1.0.0",
+    "type": "library",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Tobias Schlitt",
+            "email": "toby@qafoo.com"
+        },
+
+        {
+            "name": "Kore Nordmann",
+            "email": "kore@qafoo.com"
+        },
+        {
+            "name": "Jakob Westhoff",
+            "email": "jakob@qafoo.com"
+        },
+        {
+            "name": "Manuel Pichler",
+            "email": "manuel@qafoo.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "QafooLabs\\ErrorHandler": "src/main"
+        }
+    }
+}
