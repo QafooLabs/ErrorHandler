@@ -1,7 +1,7 @@
 {
     "name": "qafoolabs/errorhandler",
     "description": "Utility library to handle native errors, notices and warnings in PHP",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "library",
     "minimum-stability": "stable",
     "authors": [
