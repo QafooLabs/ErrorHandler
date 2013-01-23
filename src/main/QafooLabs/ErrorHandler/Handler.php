@@ -73,7 +73,7 @@ final class Handler
 
         // Display all errors in debug mode, but only errors and warnings in
         // production environments.
-        $exception = new \Exception($type, $message);
+        $exception = new \Exception($message,$type);
         self::exceptionHandler($exception);
     }
 
